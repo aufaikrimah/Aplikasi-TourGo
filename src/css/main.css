@@ -1,0 +1,1022 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.hero {
+ background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ padding-top: 300px;
+ position: relative;
+}
+
+.hero h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 168.77%;
+  padding-left: 20px;
+
+  /* or 81px */
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gallery {
+  background-color: #E7F6F7;
+  position: relative;
+  height: 650px;
+
+  @media screen and (max-width: 768px) {
+    height: 50vh;
+  }
+}
+
+.gallery h1 {
+  position: absolute;
+  top: 10vh;
+  font-size: 3vw;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.gallery h2 {
+  font-size: 2vw;
+}
+
+.gallery .pic {
+  margin-top: 20vh;
+  @media screen and (max-width: 768px) {
+    margin-top: 15vh;
+  }
+}
+
+.gallery .slider {
+  padding-top: 22vh;
+  padding-left: 2vh;
+  height: 30vh;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 15vh;
+    height: 15vh
+  }
+}
+
+.gallery .icon {
+  background-image: url("../assets/img/icon/kotak.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 25px 30px 30px 30px;
+  width: 60px;
+  height: 60px;
+  
+  @media screen and (max-width: 768px) {
+    background-size: 8vw;
+    padding: 1vh 3vw 3vh 2vw;
+    width: 4vw;
+    height: 4vh;
+  }
+}
+
+
+.gallery .slide {
+  background-image: url("../assets/img/gallery/kotak-slide.png");
+  background-size: 850px;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding: 60px 50px;
+  font-size: 1.5vw;
+
+  @media screen and (max-width: 768px) {
+    padding: 5vh 5vw;
+    background-size: 60vw 20vh;
+    margin-top: 8vh;
+  }
+}
+
+/* promo */
+
+.promo {
+  position: relative;
+  background-color: #10A3B3;
+  background: linear-gradient(180deg, #10A3B3 0%, rgba(16, 163, 179, 0.5) 100%);
+  padding-bottom: 0;
+  height: 65vh;
+
+  @media screen and (max-width: 768px) {
+    height: 40vh;
+  }
+}
+
+.promo h2 {
+  font-size: 4vw;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5vw;
+  }
+}
+
+.promo .s-promo {
+  padding-top: 40px;
+  width: 90vw;
+  
+}
+
+.promo .w-200 {
+  width: 20vw;
+  padding-top: 30px;
+}
+
+/* point */
+
+.point {
+  position: relative;
+  background-color: #E7F6F7;
+  padding-bottom: 0;
+ 
+  @media screen and (max-width: 768px) {
+    height: 40vh;
+  }
+}
+
+.point h2 {
+  padding-top: 100px;
+  font-size: 4vw;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5vw;
+    padding-top: 7vh;
+  }
+}
+
+.point .s-point {
+  width: 90vw;
+
+  
+}
+
+.point .w-200 {
+  width: 18vw;
+  padding-top: 3vh;
+}
+
+/* tutor */
+
+.tutor {
+  background-color: #E7F6F7;
+  position: relative;
+  height: 1000px;
+  padding-top: 150px;
+
+  @media screen and (max-width: 768px) {
+    height: 60vh;
+    padding-top: 2vh;
+  }
+}
+
+.tutor h2 {
+  font-size: 4vw;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5vw;
+    padding-top: 7vh;
+  }
+ 
+}
+
+.tutor .tutori{
+  width: 90vw;
+  padding-top: 70px;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 5vw;
+    padding-top: 7vh;
+  }
+}
+
+.tutor .tutori .w-90 {
+  width: 27vw;
+
+}
+
+.tutor .content {
+  background-color: #E7F6F7;
+  
+}
+
+.tutor h3 {
+  font-size: 1.5vw;
+  color: white;
+
+}
+
+.tutor p {
+  font-size: 1vw;
+}
+
+.tutor .head {
+  background-color: #10A3B3;
+  border-radius: 10px;
+  height: 1vh;
+  }
+
+.tutor .detail {
+  border-inline: 15px solid #E7F6F7;
+  writing-mode: horizontal-tb;
+  display: flex;
+  margin: 0;
+  direction: ltr;
+  background-color: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/* testi */
+
+.testi {
+  position: relative;
+  background-color: #E7F6F7;
+  padding-bottom: 0;
+  padding-top: 50px;
+  height: 90vh;
+}
+
+.testi h2 {
+  font-size: 50px;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.testi .s-testi {
+  width: 90vw;
+}
+
+.testi .w-200 {
+  width: 20vw;
+  padding-top: 50px;
+}
+
+/* artikel */
+
+.artikel {
+  position: relative;
+  background-color: #10A3B3;
+  background: linear-gradient(180deg, #10A3B3 0%, rgba(16, 163, 179, 0.5) 100%);
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.artikel h2 {
+  font-size: 50px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.artikel .s-artikel{
+  width: 90vw;
+  padding-top: 50px;
+}
+
+.artikel .s-artikel .card {
+  height: 67vh;
+  border-radius: 20px;
+}
+
+/* faq */
+
+.faq {
+  position: relative;
+  background-color: #E7F6F7;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.faq h2 {
+  font-size: 50px;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.faq .faqi{ 
+  width: 90vw;
+  padding-top: 50px;
+}
+
+.faq .content {
+  background-color: #E7F6F7;
+}
+
+.faq h3 {
+  font-size: 25px;
+  color: white;
+}
+
+.faq .head {
+  background-color: #10A3B3;
+  border-radius: 10px;
+}
+
+.faq .detail {
+  border-inline: 15px solid #E7F6F7;
+  writing-mode: horizontal-tb;
+  display: grid;
+  direction: ltr;
+  background-color: white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+  background-color: #10A3B3;
+  height: 55vh;
+  padding-top: 50px;
+}
+
+.footer .row {
+  padding: 20px;
+  width: 90vw;
+}
+
+.footer h3 {
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer h5 {
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .icon {
+  background-image: url("../assets/img/icon/circle.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  color: #10A3B3;
+  padding-top:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/* login */
+
+.login {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+ }
+ 
+ .login p {
+ 
+   font-style: normal;
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 168.77%;
+   color: white;
+   margin-bottom: 50px;
+ 
+   /* or 81px */
+ 
+   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .login .log {
+  display: grid;
+ }
+
+ .login .logo {
+  margin-bottom: 50px;
+ }
+
+.login .button {
+  background-color: #FF9B04 !important;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+ }
+
+ /* login as */
+
+ .loginas {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+ }
+
+ .loginas p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .loginas .logi {
+  padding-top: 250px;
+ }
+
+ .loginas .nas {
+  background-image: url("../assets/img/gallery/kotakform.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  padding-left: 270px;
+  margin-top: 50px;
+ }
+
+.loginas h3 {
+  padding-top: 50px;
+  font-weight: 700;
+  padding-bottom: 100px;
+}
+
+ .loginas .button {
+  background-color: #10A3B3 !important;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  align-items: center;
+  -ms-grid-column-align: center;
+ }
+
+ .loginas .icon {
+  padding-top: 50px;
+  color: white;
+  padding-left: 50px;
+ }
+
+ /* login user */
+ .loginuser {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+ }
+
+
+ .loginuser p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .loginuser .logi {
+  padding-top: 250px;
+ }
+
+.loginuser h3 {
+  
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.loginuser .form {
+  background-image: url("../assets/img/gallery/kotakform.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  padding: 40px;
+  width: 45vw;
+}
+
+ .loginuser .form .btn {
+  background-color: #FF9B04 !important;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  align-items: center;
+  -ms-grid-column-align: center;
+ }
+
+ .loginuser .icon {
+  padding-top: 50px;
+  color: white;
+  padding-left: 50px;
+ }
+ .loginuser h6 {
+  font-size: smaller;
+  color: red;
+  
+ }
+
+ /* Register User */
+
+ .registeruser {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+  padding-top: 50px;
+ }
+
+ .registeruser h3 {
+  margin-bottom: 30px;
+ }
+
+ .registeruser h6 {
+  font-size: smaller;
+  color: red;
+  
+ }
+
+ .registeruser .form {
+  background-image: url("../assets/img/gallery/kotakform2.png");
+  background-size: 1700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 10px;
+ }
+
+ .registeruser .form .btn {
+  background-color: #FF9B04 !important;
+  width: 370px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  align-items: center;
+  -ms-grid-column-align: center;
+ }
+
+ /* register tg */
+
+.registertg {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+  padding-top: 25px;
+}
+
+.registertg .rtg {
+  background-image: url("../assets/img/gallery/kotakform2.png");
+  background-size: 1800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 10px;
+}
+
+.registertg h3 {
+  margin-bottom: 30px;
+ }
+
+ .registertg .icon {
+  width: 55px;
+  height: 55px;
+  
+  padding-left: 30px;
+ }
+
+ /* mencari */
+
+ .mencari {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 150px;
+ }
+
+
+ .mencari .button {
+  background-color: #FF9B04 !important;
+  width: 400px;
+  height: 70px;
+  border-radius: 10px;
+ }
+
+ .mencari .logo {
+  margin-bottom: 50px;
+ }
+
+ .mencari .btn {
+  padding-top: 25px;
+ }
+
+ /* guide */
+
+ .products {
+  background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0) 0%, #10A3B3 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+ }
+
+ .products .card {
+  height: 500px;
+  border-radius: 10px;
+  margin: 40px 20px;
+ }
+
+ .products h5 {
+  color: red;
+ }
+
+.product-add-button {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #FF9B04;
+  color: white;
+  width: 90%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+.product-add-button:hover {
+  background-color: dimgrey;
+}
+
+.product-add-button:active {
+  transform: translateY(2px);
+}
+
+/* Wisata */
+
+.wisata {
+  background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0) 0%, #10A3B3 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wisata-item {
+  height: 330px;
+  border-radius: 10px;
+  margin: 40px 20px;
+ }
+
+ .wisata-add-button {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #FF9B04;
+  color: white;
+  width: 20%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  margin-right: 30px !important;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+.wisata-add-button:hover {
+  background-color: dimgrey;
+}
+
+.wisata-add-button:active {
+  transform: translateY(2px);
+}
+
+/* Cart */
+
+.cart {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ padding-top: 100px;
+ position: relative;
+}
+
+.cart p {
+ 
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 168.77%;
+  color: white;
+  margin-bottom: 50px;
+
+  /* or 81px */
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cart .log {
+ display: grid;
+}
+
+.cart .logo {
+ margin-bottom: 50px;
+}
+
+.cart .button {
+ background-color: #FF9B04 !important;
+ width: 200px;
+ height: 50px;
+ border-radius: 10px;
+ padding-top: 10px;
+}
+
+/* guidews */
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex-basis: 33.33%; /* Mengatur lebar item menjadi 1/3 dari lebar container */
+  padding: 10px;
+}
+
+.products h1 {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.products .link {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+/* detailguide */
+
+.detailguide {
+  background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0) 0%, #10A3B3 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.detailguide h6 {
+  font-size: small;
+  color: red;
+}
+
+.detailguide .col-sm-2 {
+  background-image: url("../assets/img/icon/kotakbiru.png");
+  background-size: 20vh ;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.detailguide .item {
+  background-image: url("../assets/img/icon/persegi.png");
+  background-size: 120vh 8vw;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+/* cartws */
+
+.cartws {
+  background-image: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 0%, #10A3B3 100%), url("../assets/img/hero/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.cartws h2 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.cartws h6 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card .cartws-item {
+  height: 25vh;
+ }
+
+ .cartws .link {
+  padding-top: 40%;
+  font-weight: bold;
+}
+
+.cartws .link .orderlink {
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #FF9B04;
+  color: white;
+  width: 80%;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+
+.cartws .link .order:hover {
+  background-color: dimgrey;
+}
+
+.cartws .link .order:active {
+  transform: translateY(2px);
+}
+
+
+ .cartws .button {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: hsl(0, 100%, 51%);
+  color: white;
+  width: 80%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 5px auto;
+}
+
+.cartws .button:hover {
+  background-color: dimgrey;
+}
+
+.cartws .button:active {
+  transform: translateY(2px);
+}
+
+.cartws .a {
+  padding-top: 5%;
+}
+
+/*orderws */
+.order {
+  background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0) 0%, #10A3B3 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.order .detail {
+  padding-top: 30px;
+}
+.order h6 {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.order .item {
+  background-image: url("../assets/img/icon/persegi.png");
+  background-size: 110vh 9vw;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+/* detail order */
+
+.detailorder {
+  background-image: linear-gradient(to bottom right, rgba(217, 217, 217, 0) 0%, #10A3B3 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.detailorder .bio {
+  padding: 30px;
+}
+
+.detailorder h1 {
+  padding-bottom: 30px;
+}
+
+/* createuser */
+.useruser h6 {
+  font-size: small;
+  color: red;
+}
+
+/* loading */
+
+@keyframes growAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.spinner .loading {
+  position: absolute;
+  top: 40%;
+  left: 45%; /* Sesuaikan ukuran gambar spinner */
+  height: 100px;
+  animation: growAnimation 1s infinite;
+  /* Gaya tambahan untuk spinner */
+}
+
+/* EditTg */
+
+.edittg h6 {
+  font-size: small;
+  color: red;
+}
+
+/* Edit Wisata */
+.editwisata h6 {
+  font-size: small;
+  color: red;
+}
+
+/* order */
+.order .validation {
+  font-size: small;
+  color: red;
+}
+
+/* dashboard tourguide */
+
+.tourguide {
+  position: absolute;
+}
+.tourguide .spinner .loading {
+  margin-left: 650px;
+  top: 45%;
+}
